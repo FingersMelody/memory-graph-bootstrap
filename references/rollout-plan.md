@@ -1,5 +1,9 @@
 # Rollout Plan
 
+**EN**: This document gives a staged rollout path from architecture design to retrieval validation and later automation.
+
+**中文**：这份文档给出了一条分阶段实施路径：从架构设计开始，到检索验收，再到后续自动化。
+
 ## Stage 1 — Architecture
 
 Define:
