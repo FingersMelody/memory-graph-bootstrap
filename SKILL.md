@@ -5,6 +5,10 @@ description: Design and bootstrap a three-layer memory system for OpenClaw using
 
 # Memory Graph Bootstrap
 
+> EN: This skill helps an agent design and bootstrap a recall-friendly memory system using OpenClaw native memory, an Obsidian graph, and `memory-lancedb-pro`.
+>
+> 中文：这个 skill 用来帮助代理设计并搭建一套“可召回、可维护、可扩展”的记忆系统，结合 OpenClaw 原生记忆、Obsidian 图谱和 `memory-lancedb-pro`。
+
 Design memory systems in three layers:
 
 1. **Hot memory** — `MEMORY.md` and `memory/YYYY-MM-DD.md`
@@ -108,6 +112,20 @@ When helping the user, prefer to produce:
 - Do not treat Obsidian as a dump of raw chat logs
 - Prefer summaries and structured notes over raw transcript storage
 - Prefer improving recall quality before adding more automation
+
+## Installation / 安装使用说明
+
+This repository is already a valid skill folder.
+To use it, place the `memory-graph-bootstrap/` directory inside a skills directory that your OpenClaw setup can read, then trigger it with requests about memory architecture, Obsidian memory graphs, or `memory-lancedb-pro` rollout.
+
+中文说明：
+这个仓库本身就是一个可用的 skill 目录。使用时，把 `memory-graph-bootstrap/` 整个目录放到 OpenClaw 可读取的 skills 目录下；当用户提出“记忆架构设计、Obsidian memory graph、memory-lancedb-pro 接入与调优”等需求时，这个 skill 就适合被触发。
+
+Suggested usage / 建议使用方式：
+- Start with architecture design first / 先做架构设计
+- Then define the vault schema / 再定义 vault 结构
+- Then integrate retrieval / 再接入检索层
+- Validate recall before enabling more automation / 先验收 recall，再增加自动化
 
 ## What this skill does not cover
 
