@@ -1,0 +1,60 @@
+# Three-Layer Memory Architecture
+
+## Goal
+
+Combine fast always-loaded memory, human-maintained knowledge structure, and semantic recall.
+
+## Layer 1: Hot memory
+
+Use OpenClaw native files:
+- `MEMORY.md`
+- `memory/YYYY-MM-DD.md`
+
+### Store here
+- stable user preferences
+- short high-signal facts
+- frequently needed context
+- compact summaries of ongoing projects
+
+### Do not store here
+- long raw logs
+- transient jokes
+- duplicate event history
+- low-confidence guesses
+
+## Layer 2: Graph layer
+
+Use Obsidian for:
+- projects
+- topics
+- decisions
+- systems
+- memories
+- people
+- reviews
+
+### Purpose
+- make memory readable
+- make memory maintainable
+- create links and graph relationships
+- support manual review and cleanup
+
+## Layer 3: Retrieval layer
+
+Use `memory-lancedb-pro` for:
+- semantic recall
+- auto-capture
+- retrieval injection
+- future extraction and memory lifecycle work
+
+### Purpose
+- help the agent remember by meaning, not just keywords
+- support larger memory volume without stuffing everything into prompt memory
+
+## Core principle
+
+Hot memory is what should always be carried.
+Graph memory is what humans should be able to inspect and maintain.
+Retrieval memory is what should be searchable and recallable.
+
+Do not use one layer to replace the others.
