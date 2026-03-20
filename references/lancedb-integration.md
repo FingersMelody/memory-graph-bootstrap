@@ -15,6 +15,7 @@ Recommended first pass:
 - `smartExtraction: false`
 
 Enable `autoCapture` only after the user has a base structure and enough real data to evaluate quality.
+If `autoCapture` is enabled, add a clear downstream filter so retrieval capture does not automatically become graph-layer content.
 
 ## Why recall-first
 
@@ -39,6 +40,12 @@ Prefer indexing or capturing:
 - low-value greetings
 - speculative statements
 - repeated assistant boilerplate
+- using retrieval capture as a direct sync feed into Obsidian
+
+## Maintenance warning
+
+A memory system that needs frequent manual cleanup loses much of its value.
+Prefer keeping broad recall in retrieval and promoting only hardened, durable items into the graph layer.
 
 ## Jina embedding guidance
 

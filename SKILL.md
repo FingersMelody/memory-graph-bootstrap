@@ -50,8 +50,10 @@ Before enabling aggressive automation, define:
 - naming conventions
 - memory routing rules
 - promotion rules for what is allowed to enter the graph layer
+- memory hardening rules for what must stay retrieval-only versus what may be promoted
 
 Use a promotion gate for Obsidian. Do not send everything captured by retrieval into structured notes.
+Prefer a conservative hardening rule such as: only promote items that are explicitly marked important, repeatedly confirmed, or clearly durable enough to improve future collaboration.
 
 Read `references/vault-schema.md` when designing the vault.
 Read `references/architecture.md` when explaining the three-layer model.
@@ -113,8 +115,11 @@ When helping the user, prefer to produce:
 - Do not recommend using only a vector database without a human-readable structure
 - Do not enable aggressive auto-capture by default
 - Do not treat Obsidian as a dump of raw chat logs
+- Do not allow retrieval capture to bloat the graph layer without filtering
 - Prefer summaries and structured notes over raw transcript storage
 - Prefer improving recall quality before adding more automation
+- Prefer lower-maintenance memory workflows over schemes that require frequent manual graph cleanup
+- Plan for dedupe / merge review before the graph becomes noisy
 
 ## Installation / 安装使用说明
 

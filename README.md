@@ -20,6 +20,9 @@ This repository contains an AgentSkill for designing and rolling out a three-lay
 
 > The graph layer should stay selective. It should not become a full mirror of retrieval memory.  
 > 图谱层应该保持精炼，不应该变成检索层的完整镜像。
+>
+> Prefer a memory hardening rule: broad recall can live in retrieval, but only durable and valuable items should be promoted into the graph.  
+> 建议加入“记忆固化”规则：广泛召回可以留在检索层，只有稳定且真正有价值的内容才应该提升到图谱层。
 
 ---
 

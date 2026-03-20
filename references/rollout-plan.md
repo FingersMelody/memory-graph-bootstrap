@@ -58,6 +58,11 @@ Suggested promotion signals:
 - the item is a project, decision, system rule, or durable preference
 - the item clearly improves future collaboration
 
+Suggested memory hardening rule:
+- keep single-mention, speculative, and low-confidence items in retrieval first
+- promote to the graph only after explicit importance, repeated confirmation, or clear long-term usefulness
+- prefer a small high-quality graph over a large noisy mirror of captured memory
+
 Deliverables:
 - stable capture behavior
 - initial useful recalls
@@ -91,6 +96,7 @@ Possible future implementation:
 - scripted similarity checks
 - scheduled review tasks
 - AI-assisted merge suggestions with human review
+- maintenance thresholds that trigger review before graph clutter grows too much
 
 ## Stage 7 — Optional extraction
 
