@@ -50,10 +50,18 @@ After some real usage:
 - enable auto-capture if retrieval quality is acceptable
 - review what gets stored
 - adjust capture rules if memory gets noisy
+- add a promotion gate so only selected items can enter the graph layer
+
+Suggested promotion signals:
+- user explicitly says it is important
+- the same fact appears repeatedly
+- the item is a project, decision, system rule, or durable preference
+- the item clearly improves future collaboration
 
 Deliverables:
 - stable capture behavior
 - initial useful recalls
+- a clear memory hardening rule for Obsidian promotion
 
 ## Stage 5 — Validation and tuning
 
@@ -69,7 +77,22 @@ Measure:
 - duplication
 - usefulness in context
 
-## Stage 6 — Optional extraction
+## Stage 6 — Dedupe and merge
+
+After the graph has real content, add a dedupe / merge review step.
+
+Look for:
+- duplicate notes with slightly different names
+- repeated decisions stored twice
+- project or topic notes that should be merged
+- overlapping summaries that reduce graph quality
+
+Possible future implementation:
+- scripted similarity checks
+- scheduled review tasks
+- AI-assisted merge suggestions with human review
+
+## Stage 7 — Optional extraction
 
 Only after recall is stable, consider enabling smart extraction or a separate distillation workflow.
 
