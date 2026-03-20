@@ -49,6 +49,9 @@ Before enabling aggressive automation, define:
 - frontmatter schema
 - naming conventions
 - memory routing rules
+- promotion rules for what is allowed to enter the graph layer
+
+Use a promotion gate for Obsidian. Do not send everything captured by retrieval into structured notes.
 
 Read `references/vault-schema.md` when designing the vault.
 Read `references/architecture.md` when explaining the three-layer model.
