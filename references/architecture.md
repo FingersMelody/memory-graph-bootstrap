@@ -1,5 +1,9 @@
 # Three-Layer Memory Architecture
 
+**EN**: This document explains why memory should be split into hot memory, graph memory, and retrieval memory.
+
+**中文**：这份文档解释为什么记忆系统应该拆成热记忆、图谱记忆和检索记忆三层。
+
 ## Goal
 
 Combine fast always-loaded memory, human-maintained knowledge structure, and semantic recall.
