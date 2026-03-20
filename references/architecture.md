@@ -42,6 +42,12 @@ Use Obsidian for:
 - make memory maintainable
 - create links and graph relationships
 - support manual review and cleanup
+- preserve only higher-signal structured knowledge, not every captured memory
+
+### Important boundary
+Do not use the graph layer as a full sync target for retrieval memory.
+Retrieval memory can be broad; graph memory should stay selective.
+Only promote items into Obsidian when they are stable, important, repeated, user-confirmed, or structurally useful.
 
 ## Layer 3: Retrieval layer
 
