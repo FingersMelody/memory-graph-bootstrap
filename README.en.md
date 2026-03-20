@@ -13,6 +13,7 @@ This skill helps design and roll out a memory stack with three layers:
 - **Retrieval layer** — `memory-lancedb-pro` for recall and capture
 
 The graph layer should stay selective. It should not become a full mirror of retrieval memory.
+A good default is memory hardening: keep broad recall in retrieval, and promote only durable, high-value items into the graph layer.
 
 ---
 
@@ -88,3 +89,9 @@ If you use providers such as Jina or other LLM APIs, add your own credentials lo
 ## Design philosophy
 
 **Recall quality first, automation later.**
+
+Prefer a low-maintenance system:
+- retrieval can stay broad
+- graph notes should stay filtered and structured
+- add a promotion gate before broad Obsidian writes
+- review duplicates before graph clutter grows
