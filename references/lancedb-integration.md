@@ -1,5 +1,9 @@
 # memory-lancedb-pro Integration
 
+**EN**: This document explains how to integrate `memory-lancedb-pro` conservatively, starting with recall before broader automation.
+
+**中文**：这份文档说明如何以保守方式接入 `memory-lancedb-pro`，优先做好 recall，再逐步增加自动化。
+
 ## Default recommendation
 
 Start with a recall-first setup.

@@ -1,5 +1,9 @@
 # Vault Schema
 
+**EN**: This document defines a practical Obsidian vault structure, note types, and routing rules for memory systems.
+
+**中文**：这份文档定义了一套适合记忆系统的 Obsidian vault 结构、笔记类型和分流规则。
+
 ## Recommended vault structure
 
 ```text
